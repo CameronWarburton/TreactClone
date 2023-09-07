@@ -201,3 +201,23 @@ width: 50%;
     padding: 0x 64px 0 0;
     opacity: 0.5;
 }
+
+/* FEATURES */
+
+.features__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 250px;
+    padding: 72px 0;
+}
+
+.features__title {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.features__description {
+    text-align: center;
+}
