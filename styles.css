@@ -405,3 +405,24 @@ header .row {
     font-size: 14px;
     line-height: 2;
 }
+
+/* VALUES  */
+
+.values__title {
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.values__subtitle {
+    font-size: 48px;
+    font-weight: 900;
+    color: #243E63;
+}
+
+.values__para {
+    color: #7C8BA1;
+    font-size: 18px;
+    font-weight: 500;
+    word-spacing: 1px;
+}
