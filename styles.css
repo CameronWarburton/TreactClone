@@ -415,7 +415,7 @@ header .row {
 /* VALUES  */
 
 #values {
-    padding: 96px;
+    padding: 96px 0;
 }
 
 #values .row {
@@ -503,6 +503,10 @@ header .row {
 
 /* PRICING  */
 
+#pricing {
+    padding: 96px 0;
+}
+
 .pricing__title {
     display: flex;
     justify-content: center;
@@ -531,7 +535,7 @@ header .row {
 
 .plans {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .plan {
@@ -541,6 +545,7 @@ header .row {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-top: 64px;
+    margin-right: 1px;
 }
 
 .plan__business {
@@ -549,7 +554,7 @@ header .row {
     flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    margin-top: 64px;
+    margin: 64px 32px 0px 32px;
     background: #6415ff;
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
@@ -662,3 +667,6 @@ header .row {
 .red {
    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
+
+/* TESTIMONIALS */
+
