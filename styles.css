@@ -73,6 +73,10 @@ img {
     overflow: clip;
 }
 
+.space {
+    padding-left: 8px;
+}
+
 /* NAVIGATION */
 
 nav {
@@ -670,12 +674,12 @@ header .row {
 
 /* TESTIMONIALS */
 
-#testimonials .row {
-    display: flex;
-}
-
 #testimonials {
     padding: 96px 0;
+}
+
+#testimonials .row {
+    display: flex;
 }
 
 .testimonials__img--wrapper {
@@ -765,4 +769,35 @@ header .row {
     font-size: 16px;
     font-weight: 500;
     color: #7C8BA1;
+}
+
+/* FAQ */
+
+#faq {
+    padding: 96px 0;
+}
+
+.faq__title {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.faq__subtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #243E63;
+}
+
+.faq__para {
+    color: #7C8BA1;
+    font-size: 18px;
+    font-weight: 500;
+    word-spacing: 1px;
+    text-align: center;
+    padding: 0 250px;
 }
