@@ -543,13 +543,33 @@ header .row {
     margin-top: 64px;
 }
 
+.plan__business {
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 64px;
+    background: #6415ff;
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
 .plan__header {
     text-align: center;
     padding: 32px 0;
 }
 
+.business__header {
+    color: #F7FAFC;
+}
+
 .plan__price {
     margin: 16px 0;
+}
+
+.plan__price--business {
+    margin: 16px 0;
+    color: #F7FAFC;
 }
 
 
@@ -557,6 +577,13 @@ header .row {
     font-size: 16px;
     font-weight: 700;
     color: #A0AEC0;
+    letter-spacing: 2px;
+}
+
+.duration__business {
+    font-size: 16px;
+    font-weight: 700;
+    color: #F7FAFC;
     letter-spacing: 2px;
 }
 
@@ -570,16 +597,50 @@ header .row {
     border-bottom-width: 2px;
 }
 
+.plan__features--business {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px;
+    border: 0 solid rgba(0, 0, 0, 0.1);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.business__subheader {
+    color: #F7FAFC;
+}
+
 .feature {
     margin-top: 20px;
     font-weight: 500;
     color: #718096;
 }
 
+.feature__business {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #F7FAFC;
+}
+
+
 .plans__btn {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     width: 100%;
     height: 56px;
+}
+
+.plans__btn--red {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    width: 100%;
+    height: 56px;
+}
+
+.plans__btn--white {
+    background: white;
+    width: 100%;
+    height: 56px;
+    color: #6415ff;
 }
 
 .btn__wrapper--plans {
@@ -596,4 +657,8 @@ header .row {
 
 .green {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.red {
+   background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
