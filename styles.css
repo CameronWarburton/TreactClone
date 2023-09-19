@@ -6,6 +6,10 @@
     font-family: 'Inter', 'sans-serif';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     margin: 0 20px;
 }
@@ -837,14 +841,125 @@ header .row {
     border-radius: 8px;
 }
 
-.getstarted__text--wrapper {
+.getstarted {
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 0 32px;
+    text-align: left;
+}
+
+.getstarted__text--wrapper {
+    width: 50%;
 }
 
 .getstarted__text {
     font-size: 30px;
     font-weight: 700;
     color: #F7FAFC;
+}
+
+.getstarted__btn--wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.getstarted__btn {
+    background-color: #F56565;
+    font-size: 16px;
+    height: 64px;
+    margin-right: 32px;
+}
+
+.getstarted__btn2 {
+    border-style: solid;
+    border-color: #F7FAFC;
+    border-width: 1px;
+    font-size: 16px;
+    height: 64px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 96px;
+    padding: 80px;
+    background-color: #6415ff;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #F7FAFC;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+}
+
+.link__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #F7FAFC;
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #F7FAFC;
+    margin: 12px 0;
+    text-align: left;
+}
+
+.footer__break {
+    margin: 64px 0;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer__logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    width: 32px;
+    margin-right: 12px;
+}
+
+.footer__logo--container {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #F7FAFC;
+}
+
+.footer__copyright {
+    font-size: 16px;
+    color: #CBD5E0;
+    font-weight: 400;
+}
+
+.social__link {
+    margin-right: 12px;
+    background-color: #F7FAFC;
+    border-radius: 24px;
+}
+
+.fa-facebook-f {
+    padding: 8px 12px;
+}
+
+.fa-twitter {
+    padding: 8px 8px;
+}
+
+.fa-youtube {
+    padding: 8px 8px;
 }
