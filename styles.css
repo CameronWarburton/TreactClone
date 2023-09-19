@@ -808,7 +808,43 @@ header .row {
 }
 
 .faq__list {
+    padding: 16px 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(236, 240, 246);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: not-allowed;
+    transition: all 300ms ease;
+}
+
+.faq__text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2D3748;
+}
+
+/* Get Started */
+
+#started {
+    padding: 96px 0;
+}
+
+.getstarted__wrapper {
+    padding: 96px 0;
+    background-color: #6415ff;
+    border-radius: 8px;
+}
+
+.getstarted__text--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getstarted__text {
+    font-size: 30px;
+    font-weight: 700;
+    color: #F7FAFC;
 }
