@@ -963,3 +963,36 @@ footer {
 .fa-youtube {
     padding: 8px 8px;
 }
+
+/* Small phones, tablets, large smartphones */
+@media (max-width: 768px) {
+    nav {
+        height: 68px;
+    }
+
+    .nav__link {
+        display: none;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .header__para {
+        font-size: 18px;
+    }
+}
+
+/* SMALL PHONES */
+@media (max-width: 480px) {
+    .nav__link {
+        display: none;
+    }
+}
+
+/* NAV LINKS */
+@media (max-width: 873px) {
+    .nav__link {
+        display: none;
+    }
+}
