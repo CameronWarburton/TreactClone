@@ -90,6 +90,7 @@ img {
     border: none;
     color: #7342d6;
     display: none;
+    cursor: pointer;
 }
 
 .menu__backdrop {
@@ -139,6 +140,11 @@ img {
     top: 10px;
     padding: 8px;
     color: white;
+}
+
+.fa-times {
+    color: black;
+    cursor: pointer;
 }
 
 
@@ -196,7 +202,25 @@ margin: 32px auto;
     cursor: not-allowed;
 }
 
+.btn:hover {
+    background-color: #7342d6;
+}
+
 /* LANDING */
+
+#landing {
+    animation: animate-landing 900ms ease;
+}
+
+@keyframes animate-landing {
+        0% {
+            transform: translateX(100%);
+        }
+    
+        100% {
+            transform: translateX(0);
+        }
+    }
 
 header .row {
     display: flex;
@@ -273,6 +297,10 @@ header .row {
     cursor: pointer;
 }
 
+.header__btn:hover {
+    background-color: #7342d6;
+}
+
 .header__logo--statement {
     font-size: 12px;
     padding: 20px 0 0 20px;
@@ -295,7 +323,18 @@ header .row {
 
 #features {
     padding: 96px 0;
+    animation: animate-features 900ms ease;
 }
+
+@keyframes animate-features {
+        0% {
+            transform: translateX(100%);
+        }
+    
+        100% {
+            transform: translateX(0);
+        }
+    }
 
 .features__title {
     display: flex;
@@ -369,6 +408,17 @@ header .row {
 
 #quality {
     padding: 96px 0;
+    animation: animate-quality 900ms ease;
+}
+
+@keyframes animate-quality {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 #quality .row {
@@ -416,6 +466,17 @@ header .row {
 
 #steps {
     padding: 96px 0;
+    animation: animate-steps 900ms ease;
+}
+
+@keyframes animate-steps {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 #steps .row {
@@ -485,6 +546,17 @@ header .row {
 
 #values {
     padding: 96px 0;
+    animation: animate-values 900ms ease;
+}
+
+@keyframes animate-values {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 #values .row {
@@ -574,6 +646,17 @@ header .row {
 
 #pricing {
     padding: 96px 0;
+    animation: animate-pricing 900ms ease;
+}
+
+@keyframes animate-pricing {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .pricing__title {
@@ -741,6 +824,17 @@ header .row {
 
 #testimonials {
     padding: 96px 0;
+    animation: animate-testimonials 900ms ease;
+}
+
+@keyframes animate-testimonials {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 #testimonials .row {
@@ -840,6 +934,17 @@ header .row {
 
 #faq {
     padding: 96px 0;
+    animation: animate-faq 900ms ease;
+}
+
+@keyframes animate-faq {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .faq__title {
@@ -894,6 +999,17 @@ header .row {
 
 #started {
     padding: 96px 0;
+    animation: animate-started 900ms ease;
+}
+
+@keyframes animate-started {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .getstarted__wrapper {
@@ -946,6 +1062,17 @@ footer {
     margin-top: 96px;
     padding: 80px;
     background-color: #6415ff;
+    animation: animate-footer 900ms ease;
+}
+
+@keyframes animate-footer {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .links {
