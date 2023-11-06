@@ -1356,12 +1356,12 @@ footer {
 
     .plan {
         width: calc(100%/1);
-        margin: 0 40px;
     }
 
     .plan__business {
         width: calc(100%/1);
-        margin: 32px 40px 32px 40px ;
+        padding: 0;
+        margin: 40px 0 0 0;
     }
 
     .testimonials__img--wrapper {
